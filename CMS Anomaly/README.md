@@ -92,4 +92,6 @@ We can also visualize a set number of fills closest in date-time to the fill jus
 
 The ```bcm1f_anomaly_algorithm.ipynb``` is practically the same format just with slightly different variable names. Note in both notebooks there are guiding comments and header cells that match this README file. If there are questions or issues running the code, reach out to kmream@umich.edu.
 
+This summer project was completed at the CERN REU Summer 2024 program under my advisors Andres Guillermo Delannoy Sotomayor and Francesco Romeo.
+
 Et voila! You've just performed channel and/or anomaly detection for PLT and BCM1F data! 
