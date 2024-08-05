@@ -1,3 +1,7 @@
 # Overview
 
-The notebook ```sbnd_b_ml``` is a convolutional neural network (CNN) type machine learning model that processes image data. It requires reading in a json file for data, however that can be modified as needed. The CNN network is written based off of the tensorflow package and uses a U-Net shaped model.
+The notebook ```sbnd_b_ml``` is a convolutional neural network (CNN) type machine learning model that processes image data. It requires reading in a json file for data, however that can be modified as needed. The CNN network is written based off of the tensorflow package and uses a U-Net shaped model. The model learned in the end, however it definitely struggled due to needing further hyper-parameter tuning and also because most of the images are empty space. Thus, as a result, to improve the model even further it would be worth exploring to see if a sparse neural network (SNN) shape overall or even a couple layers added would improve learning ability of the model. 
+
+This code was my first ML project and also my first in depth coding project, so I have learned much since working on this the summer of 2023. I would approach solving this slightly differently if given the same task now, by instead choosing to use the ```pytorch``` package instead of the ```tensorflow``` package which works much better for a SNN. I additionally would have put more focus on plotting the ROC curve rather than looking strictly at the fractional percent errors of each epoch ran. I also think I could have further cropped the images to reduce how much space the model needed to learn.
+
+This project was completed at the University of Chicago 2023 MRSEC and Physics Summer REU program under my PI David Schmitz and graduate student Moon Jung. 
